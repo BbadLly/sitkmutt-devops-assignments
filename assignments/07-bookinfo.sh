@@ -1,5 +1,3 @@
-set -e
-
 docker build ./ratings/ -t ratings
 
 docker build ./reviews/ -t reviews
